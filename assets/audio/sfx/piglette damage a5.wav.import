@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dg8061d3eh1u"
+path="res://.godot/imported/piglette damage a5.wav-15799f097e53085098acc510e97f7d4b.sample"
+
+[deps]
+
+source_file="res://assets/audio/sfx/piglette damage a5.wav"
+dest_files=["res://.godot/imported/piglette damage a5.wav-15799f097e53085098acc510e97f7d4b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

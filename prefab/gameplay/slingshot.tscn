@@ -1,0 +1,34 @@
+[gd_scene load_steps=6 format=3 uid="uid://xaxpvc1s5vnp"]
+
+[ext_resource type="Texture2D" uid="uid://bafp6h6ytr8cu" path="res://assets/exp/slingshot.png" id="1_o0la0"]
+[ext_resource type="PackedScene" uid="uid://disqx4go3ga61" path="res://prefab/ui/trajectory_spot.tscn" id="2_qkhfn"]
+[ext_resource type="Texture2D" uid="uid://cyhtygaatdnor" path="res://assets/sprites/separated/slingshot_2.png" id="2_rkb20"]
+[ext_resource type="PackedScene" uid="uid://evhb2vh4cnie" path="res://prefab/gameplay/slingshot_belt.tscn" id="3_gohq6"]
+[ext_resource type="Script" path="res://assets/scripts/slingshot.gd" id="4_bufrk"]
+
+[node name="slingshot" type="Node2D"]
+position = Vector2(-13, -5)
+script = ExtResource("4_bufrk")
+spot_scene = ExtResource("2_qkhfn")
+
+[node name="slingshot_back" type="Sprite2D" parent="."]
+z_index = 1
+texture = ExtResource("1_o0la0")
+
+[node name="slingshot_front" type="Sprite2D" parent="."]
+z_index = 4
+position = Vector2(-12, -48)
+texture = ExtResource("2_rkb20")
+
+[node name="launch_point" type="Marker2D" parent="."]
+position = Vector2(10, -68)
+
+[node name="slingshot_belt_back" parent="." instance=ExtResource("3_gohq6")]
+z_index = 1
+position = Vector2(19, -76)
+
+[node name="slingshot_belt_front" parent="." instance=ExtResource("3_gohq6")]
+z_index = 2
+position = Vector2(-16, -68)
+
+[node name="trajectory" type="Node2D" parent="."]

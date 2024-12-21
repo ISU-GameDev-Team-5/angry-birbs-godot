@@ -1,0 +1,87 @@
+[gd_scene load_steps=10 format=3 uid="uid://dyxy6dpryc4jc"]
+
+[ext_resource type="PackedScene" uid="uid://bstqlqesalsty" path="res://character_body_2d.tscn" id="1_w6q1b"]
+[ext_resource type="Texture2D" uid="uid://dqekcx2ycq0sx" path="res://assets/sprites/sheets/skies/INGAME_SKIES_1.png" id="2_4r4kc"]
+[ext_resource type="Texture2D" uid="uid://bpigk0fulqev1" path="res://assets/sprites/gnd_fixed.png" id="3_kn7tn"]
+[ext_resource type="Texture2D" uid="uid://c7beosw4ont85" path="res://assets/sprites/sheets/parallax/INGAME_PARALLAX_1.png" id="4_jm1f4"]
+[ext_resource type="Texture2D" uid="uid://ct1s553w7rcb0" path="res://assets/sprites/grass_front_cleared.png" id="5_5tpbl"]
+[ext_resource type="Texture2D" uid="uid://0n4h4q1wrv25" path="res://assets/sprites/sheets/ui/MENU_ELEMENTS_1.png" id="5_gl2hp"]
+[ext_resource type="Texture2D" uid="uid://w7g2o775vd20" path="res://assets/sprites/sheets/ui/BUTTONS_SHEET_1.png" id="6_p8tc4"]
+[ext_resource type="Script" path="res://assets/scripts/change_level_button.gd" id="7_v8owu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wuh3k"]
+atlas = ExtResource("4_jm1f4")
+region = Rect2(0, 0, 600, 203.321)
+
+[node name="MainMenu" type="Node2D"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="sky" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/sky"]
+position = Vector2(586.875, 320.75)
+scale = Vector2(2.40114, 2.04272)
+texture = ExtResource("2_4r4kc")
+region_enabled = true
+region_rect = Rect2(2.20514, -1.30765, 483.302, 316.684)
+
+[node name="ground" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_mirroring = Vector2(1250, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ground"]
+texture_filter = 1
+texture_repeat = 2
+position = Vector2(621, 587)
+texture = ExtResource("3_kn7tn")
+region_enabled = true
+region_rect = Rect2(1.52, 0, 1250, 125)
+
+[node name="objects_bg" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/objects_bg"]
+texture_filter = 1
+texture_repeat = 2
+position = Vector2(595, 319)
+scale = Vector2(2, 2)
+texture = SubResource("AtlasTexture_wuh3k")
+
+[node name="grass_bg" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_mirroring = Vector2(1250, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/grass_bg"]
+texture_filter = 1
+texture_repeat = 2
+position = Vector2(624, 507)
+texture = ExtResource("5_5tpbl")
+region_enabled = true
+region_rect = Rect2(0, 0, 1250, 35)
+
+[node name="ui" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0, 0)
+
+[node name="logo" type="Sprite2D" parent="ParallaxBackground/ui"]
+position = Vector2(551, 131)
+texture = ExtResource("5_gl2hp")
+region_enabled = true
+region_rect = Rect2(0, 228.354, 822.359, 185.021)
+
+[node name="play_button" type="Sprite2D" parent="ParallaxBackground/ui"]
+position = Vector2(582, 355)
+scale = Vector2(1.25466, 1.24178)
+texture = ExtResource("6_p8tc4")
+region_enabled = true
+region_rect = Rect2(256.453, 290.812, 322.493, 213.108)
+
+[node name="Button" type="Button" parent="ParallaxBackground/ui"]
+self_modulate = Color(1, 1, 1, 0)
+offset_left = 380.0
+offset_top = 221.0
+offset_right = 782.0
+offset_bottom = 486.0
+script = ExtResource("7_v8owu")
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_w6q1b")]
+position = Vector2(592, 321)

@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://4pfpmfi044n2"]
+
+[ext_resource type="Texture2D" uid="uid://b07sjlrqgtw1o" path="res://assets/sprites/sheets/entities/INGAME_BIRDS_1.png" id="1_1ejfg"]
+[ext_resource type="Script" path="res://prefab/damageble.gd" id="1_4lvl6"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_shon5"]
+radius = 20.025
+
+[node name="ObjectBase" type="RigidBody2D"]
+contact_monitor = true
+max_contacts_reported = 7
+script = ExtResource("1_4lvl6")
+
+[node name="template" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-4, -1)
+texture = ExtResource("1_1ejfg")
+region_enabled = true
+region_rect = Rect2(901.966, 796.944, 47.7446, 46.257)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 2)
+shape = SubResource("CircleShape2D_shon5")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

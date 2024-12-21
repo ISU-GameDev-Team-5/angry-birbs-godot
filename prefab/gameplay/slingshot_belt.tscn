@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://evhb2vh4cnie"]
+
+[ext_resource type="Texture2D" uid="uid://bkadk6rjyvfc4" path="res://assets/exp/elastic_tex.png" id="1_eaq1f"]
+
+[node name="slingshot_belt" type="Node2D"]
+
+[node name="belt" type="Sprite2D" parent="."]
+scale = Vector2(0.03, 0.03)
+texture = ExtResource("1_eaq1f")
+
+[node name="fixation_point" type="Marker2D" parent="."]

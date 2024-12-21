@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d0p6iiy086832"
+path="res://.godot/imported/light destroyed a3.wav-2e37c857431550bff7f72b778f29527a.sample"
+
+[deps]
+
+source_file="res://assets/audio/sfx/light destroyed a3.wav"
+dest_files=["res://.godot/imported/light destroyed a3.wav-2e37c857431550bff7f72b778f29527a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://nb6c1mq0vmtb"
+path="res://.godot/imported/bird misc a7.wav-a259fb97dfea5b7e1ba6664af7b6f091.sample"
+
+[deps]
+
+source_file="res://assets/audio/sfx/bird misc a7.wav"
+dest_files=["res://.godot/imported/bird misc a7.wav-a259fb97dfea5b7e1ba6664af7b6f091.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

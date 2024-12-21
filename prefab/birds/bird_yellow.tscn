@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://cfr8d2bq6sqle"]
+
+[ext_resource type="PackedScene" uid="uid://4pfpmfi044n2" path="res://prefab/object_base.tscn" id="1_pst2o"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_eenff"]
+radius = 22.0227
+
+[node name="bird_yellow" groups=["Bird"] instance=ExtResource("1_pst2o")]
+
+[node name="template" parent="." index="0"]
+position = Vector2(0, 0)
+region_rect = Rect2(666.085, 877.976, 60.7957, 56.756)
+
+[node name="CollisionShape2D" parent="." index="1"]
+position = Vector2(7, 7)
+shape = SubResource("CircleShape2D_eenff")

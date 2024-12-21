@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://baob61art2wma"
+path="res://.godot/imported/special egg.wav-5fc28bc80ae8612f2bafe70fd0f5b201.sample"
+
+[deps]
+
+source_file="res://assets/audio/sfx/special egg.wav"
+dest_files=["res://.godot/imported/special egg.wav-5fc28bc80ae8612f2bafe70fd0f5b201.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

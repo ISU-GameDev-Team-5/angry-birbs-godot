@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bstqlqesalsty"]
+
+[ext_resource type="Script" path="res://mm_paralax_char.gd" id="1_g71sj"]
+[ext_resource type="Texture2D" uid="uid://dwf3jaw4484ul" path="res://assets/fonts/angrybirds/FONT_MENU.pvr.png" id="2_fk2ek"]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_g71sj")
+
+[node name="sprite" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("2_fk2ek")
+region_rect = Rect2(486.596, 240.934, 13.2232, 15.7025)
+
+[node name="Camera2D" type="Camera2D" parent="."]

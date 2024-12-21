@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://bqri1elcrwoak"]
+
+[ext_resource type="PackedScene" uid="uid://4pfpmfi044n2" path="res://prefab/object_base.tscn" id="1_l4x0d"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ee8lo"]
+load_path = "res://.godot/imported/INGAME_BLOCKS_1.png-207e3465b695636fc8e815e40edaf996.ctex"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k8cw2"]
+size = Vector2(78.5, 78)
+
+[node name="block_wood" instance=ExtResource("1_l4x0d")]
+mass = 0.5
+health = 100
+
+[node name="template" parent="." index="0"]
+texture = SubResource("CompressedTexture2D_ee8lo")
+region_rect = Rect2(760.992, 0.504942, 84.4373, 83.4813)
+
+[node name="CollisionShape2D" parent="." index="1"]
+position = Vector2(-4, -1)
+shape = SubResource("RectangleShape2D_k8cw2")

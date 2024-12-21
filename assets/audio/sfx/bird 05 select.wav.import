@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bym526gia1lud"
+path="res://.godot/imported/bird 05 select.wav-7d5799b1484170dab0529d3d7eda2f58.sample"
+
+[deps]
+
+source_file="res://assets/audio/sfx/bird 05 select.wav"
+dest_files=["res://.godot/imported/bird 05 select.wav-7d5799b1484170dab0529d3d7eda2f58.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,6 @@
+res://assets/levels/game_scene.tscn
+res://assets/scripts/world_experimental.gd
+res://prefab/pigs/pig_regular.tscn
+res://assets/levels/main_menu.tscn
+res://character_body_2d.tscn
+res://assets/scripts/change_level_button.gd

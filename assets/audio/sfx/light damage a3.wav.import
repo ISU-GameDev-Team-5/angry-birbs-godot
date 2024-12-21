@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://fwje6sxhjisw"
+path="res://.godot/imported/light damage a3.wav-182e193347e8f46d48659b6b969fe505.sample"
+
+[deps]
+
+source_file="res://assets/audio/sfx/light damage a3.wav"
+dest_files=["res://.godot/imported/light damage a3.wav-182e193347e8f46d48659b6b969fe505.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

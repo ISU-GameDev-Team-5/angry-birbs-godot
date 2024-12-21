@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dlxdcuuilc3k2"
+path="res://.godot/imported/wood destroyed a3.wav-2db0961f1764b41eb9a38174b939f658.sample"
+
+[deps]
+
+source_file="res://assets/audio/sfx/wood destroyed a3.wav"
+dest_files=["res://.godot/imported/wood destroyed a3.wav-2db0961f1764b41eb9a38174b939f658.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

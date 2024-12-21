@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://by3kpak2ukwxk"
+path="res://.godot/imported/bird 05 collision a5.wav-a0a51fcf819dd2fb17a59a2945c57654.sample"
+
+[deps]
+
+source_file="res://assets/audio/sfx/bird 05 collision a5.wav"
+dest_files=["res://.godot/imported/bird 05 collision a5.wav-a0a51fcf819dd2fb17a59a2945c57654.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

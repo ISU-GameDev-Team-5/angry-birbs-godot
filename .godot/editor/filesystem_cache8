@@ -1,0 +1,356 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1734786922
+character_body_2d.tscn::PackedScene::3690035009493148414::1734542121::0::1::::<><>::res://mm_paralax_char.gd<>uid://dwf3jaw4484ul::::res://assets/fonts/angrybirds/FONT_MENU.pvr.png
+icon.svg::CompressedTexture2D::7092306027776346884::1734529581::1734529590::1::::<><>::
+mm_paralax_char.gd::GDScript::-1::1734572891::0::1::::<>CharacterBody2D<>::
+::res://assets/::1734547183
+::res://assets/audio/::1729355686
+::res://assets/audio/music/::1734530099
+ambient_city.mp3::AudioStreamMP3::3285394649726983238::1729355686::1734530099::1::::<><>::
+ambient_construction.mp3::AudioStreamMP3::1647562204260059071::1729355686::1734530099::1::::<><>::
+ambient_green_jungleish.mp3::AudioStreamMP3::5702224854724483426::1729355686::1734530099::1::::<><>::
+ambient_red_savannah.mp3::AudioStreamMP3::1691958536768861360::1729355686::1734530099::1::::<><>::
+ambient_white_dryforest.mp3::AudioStreamMP3::1841794225059266021::1729355686::1734530099::1::::<><>::
+birds_boss.mp3::AudioStreamMP3::3250162428664099246::1729355686::1734530099::1::::<><>::
+birds_intro.mp3::AudioStreamMP3::4475738139770643373::1729355686::1734530099::1::::<><>::
+birds_outro.mp3::AudioStreamMP3::5931260209271238490::1729355686::1734530099::1::::<><>::
+funky_theme.mp3::AudioStreamMP3::4568102056819245428::1729355686::1734530099::1::::<><>::
+game_complete.mp3::AudioStreamMP3::5383281025452535777::1729355686::1734530099::1::::<><>::
+level_complete.mp3::AudioStreamMP3::82307080588253686::1729355686::1734530099::1::::<><>::
+title_theme.mp3::AudioStreamMP3::7483288180549811515::1729355686::1734530099::1::::<><>::
+::res://assets/audio/sfx/::1734530101
+balloon_pop.wav::AudioStreamWAV::3228685283006432259::1729355686::1734530101::1::::<><>::
+ball_bounce.wav::AudioStreamWAV::9076805467794051477::1729355686::1734530101::1::::<><>::
+bigbrother_awakens.wav::AudioStreamWAV::3587478520265810426::1729355686::1734530101::1::::<><>::
+bigbrother_fly.wav::AudioStreamWAV::6621905203778325600::1729355686::1734530101::1::::<><>::
+bigbrother_select.wav::AudioStreamWAV::8448466987128051843::1729355686::1734530101::1::::<><>::
+bigbrother_yell.wav::AudioStreamWAV::7249473962914496661::1729355686::1734530101::1::::<><>::
+bird 01 collision a1.wav::AudioStreamWAV::4679112241552888203::1729355686::1734530101::1::::<><>::
+bird 01 collision a1_low.wav::AudioStreamWAV::8022234882517676440::1729355686::1734530101::1::::<><>::
+bird 01 collision a2.wav::AudioStreamWAV::7837635866966115101::1729355686::1734530101::1::::<><>::
+bird 01 collision a2_low.wav::AudioStreamWAV::2963180885877767328::1729355686::1734530101::1::::<><>::
+bird 01 collision a3.wav::AudioStreamWAV::6018128770915133401::1729355686::1734530101::1::::<><>::
+bird 01 collision a3_low.wav::AudioStreamWAV::8973831106127016320::1729355686::1734530101::1::::<><>::
+bird 01 collision a4.wav::AudioStreamWAV::2448956322484394895::1729355686::1734530101::1::::<><>::
+bird 01 collision a4_low.wav::AudioStreamWAV::5465503964312499420::1729355686::1734530101::1::::<><>::
+bird 01 flying.wav::AudioStreamWAV::3117392371095883085::1729355686::1734530101::1::::<><>::
+bird 01 select.wav::AudioStreamWAV::2382692132775866289::1729355686::1734530101::1::::<><>::
+bird 02 collision a1.wav::AudioStreamWAV::5982310470824123576::1729355686::1734530101::1::::<><>::
+bird 02 collision a2.wav::AudioStreamWAV::8242778733228564245::1729355686::1734530101::1::::<><>::
+bird 02 collision a3.wav::AudioStreamWAV::7739970024711336511::1729355686::1734530101::1::::<><>::
+bird 02 collision a4.wav::AudioStreamWAV::1827324474626377392::1729355686::1734530101::1::::<><>::
+bird 02 collision a5.wav::AudioStreamWAV::1548452069814020767::1729355686::1734530101::1::::<><>::
+bird 02 flying.wav::AudioStreamWAV::8557079796531899824::1729355686::1734530101::1::::<><>::
+bird 02 select.wav::AudioStreamWAV::8073280695285521993::1729355686::1734530101::1::::<><>::
+bird 03 collision a1.wav::AudioStreamWAV::8837039198233683136::1729355686::1734530101::1::::<><>::
+bird 03 collision a2.wav::AudioStreamWAV::8840681447488262796::1729355686::1734530101::1::::<><>::
+bird 03 collision a3.wav::AudioStreamWAV::8620601699184117201::1729355686::1734530101::1::::<><>::
+bird 03 collision a4.wav::AudioStreamWAV::6785909661219946844::1729355686::1734530101::1::::<><>::
+bird 03 collision a5.wav::AudioStreamWAV::1756030294130240776::1729355686::1734530101::1::::<><>::
+bird 03 flying.wav::AudioStreamWAV::728996150778083485::1729355686::1734530101::1::::<><>::
+bird 03 select.wav::AudioStreamWAV::7945595302926516845::1729355686::1734530101::1::::<><>::
+bird 04 collision a1.wav::AudioStreamWAV::7924927506480782961::1729355686::1734530101::1::::<><>::
+bird 04 collision a2.wav::AudioStreamWAV::7564392887392730338::1729355686::1734530101::1::::<><>::
+bird 04 collision a3.wav::AudioStreamWAV::6938838269950130510::1729355686::1734530101::1::::<><>::
+bird 04 collision a4.wav::AudioStreamWAV::7510420162607600765::1729355686::1734530101::1::::<><>::
+bird 04 flying.wav::AudioStreamWAV::3205960105723459407::1729355686::1734530101::1::::<><>::
+bird 04 select.wav::AudioStreamWAV::1502842720387392615::1729355686::1734530101::1::::<><>::
+bird 05 collision a1.wav::AudioStreamWAV::4258582278660339291::1729355686::1734530101::1::::<><>::
+bird 05 collision a2.wav::AudioStreamWAV::2682450823802069775::1729355686::1734530101::1::::<><>::
+bird 05 collision a3.wav::AudioStreamWAV::7544248935613470915::1729355686::1734530101::1::::<><>::
+bird 05 collision a4.wav::AudioStreamWAV::7136821190243695873::1729355686::1734530101::1::::<><>::
+bird 05 collision a5.wav::AudioStreamWAV::4129389481657736672::1729355686::1734530101::1::::<><>::
+bird 05 flying.wav::AudioStreamWAV::554440255580082538::1729355686::1734530101::1::::<><>::
+bird 05 select.wav::AudioStreamWAV::4097596828130221351::1729355686::1734530101::1::::<><>::
+bird destroyed.wav::AudioStreamWAV::2361570702504841021::1729355686::1734530101::1::::<><>::
+bird misc a1.wav::AudioStreamWAV::8688937597361681635::1729355686::1734530101::1::::<><>::
+bird misc a2.wav::AudioStreamWAV::6450358778116449434::1729355686::1734530101::1::::<><>::
+bird misc a3.wav::AudioStreamWAV::1146593796258771995::1729355686::1734530101::1::::<><>::
+bird misc a4.wav::AudioStreamWAV::5719754666947265032::1729355686::1734530101::1::::<><>::
+bird misc a5.wav::AudioStreamWAV::6808964478923831001::1729355686::1734530101::1::::<><>::
+bird misc a6.wav::AudioStreamWAV::3093395907762509642::1729355686::1734530101::1::::<><>::
+bird misc a7.wav::AudioStreamWAV::916406528318022767::1729355686::1734530101::1::::<><>::
+bird misc a8.wav::AudioStreamWAV::2765394477177296698::1729355686::1734530101::1::::<><>::
+bird misc a9.wav::AudioStreamWAV::3865637417435627696::1729355686::1734530101::1::::<><>::
+bird misc a10.wav::AudioStreamWAV::2505111377364923375::1729355686::1734530101::1::::<><>::
+bird misc a11.wav::AudioStreamWAV::2867320924357767231::1729355686::1734530101::1::::<><>::
+bird misc a12.wav::AudioStreamWAV::2900809817315148281::1729355686::1734530101::1::::<><>::
+bird next military a1.wav::AudioStreamWAV::571685211929429856::1729355686::1734530101::1::::<><>::
+bird next military a2.wav::AudioStreamWAV::6198578986776207651::1729355686::1734530101::1::::<><>::
+bird next military a3.wav::AudioStreamWAV::285819662826563008::1729355686::1734530101::1::::<><>::
+bird pushing egg out.wav::AudioStreamWAV::1385024426926532872::1729355686::1734530101::1::::<><>::
+bird shot-a1.wav::AudioStreamWAV::1841059553178269880::1729355686::1734530101::1::::<><>::
+bird shot-a2.wav::AudioStreamWAV::6965427305077083538::1729355686::1734530101::1::::<><>::
+bird shot-a3.wav::AudioStreamWAV::1664665639253575526::1729355686::1734530101::1::::<><>::
+bird_06_flying.wav::AudioStreamWAV::960493072726287422::1729355686::1734530101::1::::<><>::
+boomerang_activate.wav::AudioStreamWAV::7985840094641312488::1729355686::1734530101::1::::<><>::
+boomerang_select.wav::AudioStreamWAV::1837055658581688294::1729355686::1734530101::1::::<><>::
+boomerang_swish.wav::AudioStreamWAV::224125200291004641::1729355686::1734530101::1::::<><>::
+button_radio.wav::AudioStreamWAV::5525640289419561946::1729355686::1734530101::1::::<><>::
+goldenegg.wav::AudioStreamWAV::598942140953993802::1729355686::1734530101::1::::<><>::
+ice light collision a1.wav::AudioStreamWAV::5191179691128857087::1729355686::1734530101::1::::<><>::
+ice light collision a2.wav::AudioStreamWAV::607302051098900135::1729355686::1734530101::1::::<><>::
+ice light collision a3.wav::AudioStreamWAV::6004675682143918280::1729355686::1734530101::1::::<><>::
+ice light collision a4.wav::AudioStreamWAV::3877704545345520008::1729355686::1734530101::1::::<><>::
+ice light collision a5.wav::AudioStreamWAV::1819714443894157076::1729355686::1734530101::1::::<><>::
+ice light collision a6.wav::AudioStreamWAV::6614604809677127559::1729355686::1734530101::1::::<><>::
+ice light collision a7.wav::AudioStreamWAV::7636818261737395278::1729355686::1734530101::1::::<><>::
+ice light collision a8.wav::AudioStreamWAV::1099408646586311561::1729355686::1734530101::1::::<><>::
+level clear military a1.mp3::AudioStreamMP3::8843026105043806155::1729355686::1734530099::1::::<><>::
+level clear military a2.mp3::AudioStreamMP3::598313285016740688::1729355686::1734530099::1::::<><>::
+level failed piglets a1.mp3::AudioStreamMP3::2400270935628910878::1729355686::1734530099::1::::<><>::
+level failed piglets a2.mp3::AudioStreamMP3::5508599648707243646::1729355686::1734530099::1::::<><>::
+level start military a1.mp3::AudioStreamMP3::3922101531798340861::1729355686::1734530099::1::::<><>::
+level start military a2.mp3::AudioStreamMP3::2795907204595180341::1729355686::1734530099::1::::<><>::
+light damage a1.wav::AudioStreamWAV::7785921765167995679::1729355686::1734530101::1::::<><>::
+light damage a2.wav::AudioStreamWAV::8977062100778403861::1729355686::1734530101::1::::<><>::
+light damage a3.wav::AudioStreamWAV::396915781975061426::1729355686::1734530101::1::::<><>::
+light destroyed a1.wav::AudioStreamWAV::5219475535676536881::1729355686::1734530101::1::::<><>::
+light destroyed a2.wav::AudioStreamWAV::1877600642385599566::1729355686::1734530101::1::::<><>::
+light destroyed a3.wav::AudioStreamWAV::8946845779911358335::1729355686::1734530101::1::::<><>::
+light rolling.wav::AudioStreamWAV::5771310405369747799::1729355686::1734530101::1::::<><>::
+menu back.wav::AudioStreamWAV::1802005419861612123::1729355686::1734530101::1::::<><>::
+menu confirm.wav::AudioStreamWAV::3983709459974679386::1729355686::1734530101::1::::<><>::
+menu select.wav::AudioStreamWAV::3066491291541045092::1729355686::1734530101::1::::<><>::
+mighteagle.wav::AudioStreamWAV::1385368807865133240::1729355686::1734530101::1::::<><>::
+mightyeagle.wav::AudioStreamWAV::6919816729630194633::1729355686::1734530101::1::::<><>::
+mightyeagle_thump.wav::AudioStreamWAV::779981129065902467::1729355686::1734530101::1::::<><>::
+mightymouse.wav::AudioStreamWAV::300376035741468209::1729355686::1734530101::1::::<><>::
+mightymouse_select.wav::AudioStreamWAV::5265039523008114349::1729355686::1734530101::1::::<><>::
+piano-c.wav::AudioStreamWAV::5691403036733719199::1729355686::1734530101::1::::<><>::
+piano-cis.wav::AudioStreamWAV::2542478965405494322::1729355686::1734530101::1::::<><>::
+piano-d.wav::AudioStreamWAV::3706647529471571172::1729355686::1734530101::1::::<><>::
+piano-dis.wav::AudioStreamWAV::6498297803957040539::1729355686::1734530101::1::::<><>::
+piano-e.wav::AudioStreamWAV::6582480046198769931::1729355686::1734530101::1::::<><>::
+piano-f.wav::AudioStreamWAV::6416103239569656622::1729355686::1734530101::1::::<><>::
+piano-fis.wav::AudioStreamWAV::7462123707790793881::1729355686::1734530101::1::::<><>::
+piano-g.wav::AudioStreamWAV::9190205723076153716::1729355686::1734530101::1::::<><>::
+piglette collision a1.wav::AudioStreamWAV::3770254766008325190::1729355686::1734530101::1::::<><>::
+piglette collision a2.wav::AudioStreamWAV::1445608216330267264::1729355686::1734530101::1::::<><>::
+piglette collision a3.wav::AudioStreamWAV::973583927711787976::1729355686::1734530101::1::::<><>::
+piglette collision a4.wav::AudioStreamWAV::234590170865061973::1729355686::1734530101::1::::<><>::
+piglette collision a5.wav::AudioStreamWAV::8814112545411204417::1729355686::1734530101::1::::<><>::
+piglette collision a6.wav::AudioStreamWAV::913900864962208480::1729355686::1734530101::1::::<><>::
+piglette collision a7.wav::AudioStreamWAV::5770162938370546047::1729355686::1734530101::1::::<><>::
+piglette collision a8.wav::AudioStreamWAV::3490144985119945177::1729355686::1734530101::1::::<><>::
+piglette damage a1.wav::AudioStreamWAV::579109459039675970::1729355686::1734530101::1::::<><>::
+piglette damage a2.wav::AudioStreamWAV::7499816041279114696::1729355686::1734530101::1::::<><>::
+piglette damage a3.wav::AudioStreamWAV::3461270568129126634::1729355686::1734530101::1::::<><>::
+piglette damage a4.wav::AudioStreamWAV::1687940647723454025::1729355686::1734530101::1::::<><>::
+piglette damage a5.wav::AudioStreamWAV::225002771610030692::1729355686::1734530101::1::::<><>::
+piglette damage a6.wav::AudioStreamWAV::2277909929526545886::1729355686::1734530101::1::::<><>::
+piglette damage a7.wav::AudioStreamWAV::7835143932963898381::1729355686::1734530101::1::::<><>::
+piglette damage a8.wav::AudioStreamWAV::8792432758003856647::1729355686::1734530101::1::::<><>::
+piglette destroyed.wav::AudioStreamWAV::1296505071071638132::1729355686::1734530101::1::::<><>::
+piglette oink a1.wav::AudioStreamWAV::7783912725999767864::1729355686::1734530101::1::::<><>::
+piglette oink a2.wav::AudioStreamWAV::2542847609747736785::1729355686::1734530101::1::::<><>::
+piglette oink a3.wav::AudioStreamWAV::740747942936185231::1729355686::1734530101::1::::<><>::
+piglette oink a4.wav::AudioStreamWAV::8867479221966406904::1729355686::1734530101::1::::<><>::
+piglette oink a5.wav::AudioStreamWAV::151704686873352914::1729355686::1734530101::1::::<><>::
+piglette oink a6.wav::AudioStreamWAV::1474804550065917082::1729355686::1734530101::1::::<><>::
+piglette oink a7.wav::AudioStreamWAV::6671583190463044096::1729355686::1734530101::1::::<><>::
+piglette oink a8.wav::AudioStreamWAV::3891973828335463390::1729355686::1734530101::1::::<><>::
+piglette oink a9.wav::AudioStreamWAV::2008455502841187894::1729355686::1734530101::1::::<><>::
+piglette oink a10.wav::AudioStreamWAV::4169640028566956596::1729355686::1734530101::1::::<><>::
+piglette oink a11.wav::AudioStreamWAV::8523087910810632691::1729355686::1734530101::1::::<><>::
+piglette oink a12.wav::AudioStreamWAV::8561520173732233928::1729355686::1734530101::1::::<><>::
+piglette oink story.wav::AudioStreamWAV::3182959316498690897::1729355686::1734530101::1::::<><>::
+pig_bd.wav::AudioStreamWAV::3223423733288156425::1729355686::1734530101::1::::<><>::
+pig_hi-hat_1.wav::AudioStreamWAV::6527180017107318994::1729355686::1734530101::1::::<><>::
+pig_hi-hat_2.wav::AudioStreamWAV::6346172828196154193::1729355686::1734530101::1::::<><>::
+pig_snare_1.wav::AudioStreamWAV::1205781518404622332::1729355686::1734530101::1::::<><>::
+pig_snare_2.wav::AudioStreamWAV::3153274061146957443::1729355686::1734530101::1::::<><>::
+pig_snare_3.wav::AudioStreamWAV::7953035061452019728::1729355686::1734530101::1::::<><>::
+pig_snare_4.wav::AudioStreamWAV::4927462646455670843::1729355686::1734530101::1::::<><>::
+redbird_yell01.wav::AudioStreamWAV::2721247247401313163::1729355686::1734530101::1::::<><>::
+redbird_yell02.wav::AudioStreamWAV::4316335766291254867::1729355686::1734530101::1::::<><>::
+redbird_yell03.wav::AudioStreamWAV::2098765588218062138::1729355686::1734530101::1::::<><>::
+rock collision a1.wav::AudioStreamWAV::977954929584831339::1729355686::1734530101::1::::<><>::
+rock collision a2.wav::AudioStreamWAV::4078828416439863903::1729355686::1734530101::1::::<><>::
+rock collision a3.wav::AudioStreamWAV::1422099846211329822::1729355686::1734530101::1::::<><>::
+rock collision a4.wav::AudioStreamWAV::5325531830597292648::1729355686::1734530101::1::::<><>::
+rock collision a5.wav::AudioStreamWAV::961414104404828595::1729355686::1734530101::1::::<><>::
+rock damage a1.wav::AudioStreamWAV::4785054807437977231::1729355686::1734530101::1::::<><>::
+rock damage a2.wav::AudioStreamWAV::1644454491530920281::1729355686::1734530101::1::::<><>::
+rock damage a3.wav::AudioStreamWAV::889812478266347006::1729355686::1734530101::1::::<><>::
+rock destroyed a1.wav::AudioStreamWAV::3445534351570229950::1729355686::1734530101::1::::<><>::
+rock destroyed a2.wav::AudioStreamWAV::8403623689279548049::1729355686::1734530101::1::::<><>::
+rock destroyed a3.wav::AudioStreamWAV::1959101732037858799::1729355686::1734530101::1::::<><>::
+rock rolling.wav::AudioStreamWAV::8586386410261809268::1729355686::1734530101::1::::<><>::
+slingshot streched.wav::AudioStreamWAV::487309023977631434::1729355686::1734530101::1::::<><>::
+special boost.wav::AudioStreamWAV::5642763929943069403::1729355686::1734530101::1::::<><>::
+special egg explosion.wav::AudioStreamWAV::9186382551153667791::1729355686::1734530101::1::::<><>::
+special egg.wav::AudioStreamWAV::2415439415259739544::1729355686::1734530101::1::::<><>::
+special group.wav::AudioStreamWAV::3964457465943625593::1729355686::1734530101::1::::<><>::
+star_collect.wav::AudioStreamWAV::7039551429666906946::1729355686::1734530101::1::::<><>::
+tnt box explodes.wav::AudioStreamWAV::4473848595885180025::1729355686::1734530101::1::::<><>::
+trampoline.wav::AudioStreamWAV::5097426617515950690::1729355686::1734530101::1::::<><>::
+wood collision a1.wav::AudioStreamWAV::9177089070814287417::1729355686::1734530101::1::::<><>::
+wood collision a2.wav::AudioStreamWAV::74385839043658030::1729355686::1734530101::1::::<><>::
+wood collision a3.wav::AudioStreamWAV::9061950940672784182::1729355686::1734530101::1::::<><>::
+wood collision a4.wav::AudioStreamWAV::2232046447048750791::1729355686::1734530101::1::::<><>::
+wood collision a5.wav::AudioStreamWAV::4657635409694923742::1729355686::1734530101::1::::<><>::
+wood collision a6.wav::AudioStreamWAV::2035447166472685323::1729355686::1734530101::1::::<><>::
+wood damage a1.wav::AudioStreamWAV::2033525903565180729::1729355686::1734530101::1::::<><>::
+wood damage a2.wav::AudioStreamWAV::2800634190940432204::1729355686::1734530101::1::::<><>::
+wood damage a3.wav::AudioStreamWAV::4088179407954669054::1729355686::1734530101::1::::<><>::
+wood destroyed a1.wav::AudioStreamWAV::7045090766658512373::1729355686::1734530101::1::::<><>::
+wood destroyed a2.wav::AudioStreamWAV::5173875708558992870::1729355686::1734530101::1::::<><>::
+wood destroyed a3.wav::AudioStreamWAV::7979006823748529055::1729355686::1734530101::1::::<><>::
+wood rolling.wav::AudioStreamWAV::8690596696396309405::1729355686::1734530101::1::::<><>::
+::res://assets/exp/::1734547205
+background_1.jpg::CompressedTexture2D::8468949442027296501::1520790924::1734547205::1::::<><>::
+birds.png::CompressedTexture2D::6025614232204778134::1520790924::1734547205::1::::<><>::
+blocks.png::CompressedTexture2D::4384154494954989335::1520790924::1734547204::1::::<><>::
+elastic_tex.png::CompressedTexture2D::3088510783918124925::1520956418::1734547204::1::::<><>::
+slingshot.png::CompressedTexture2D::2397709103634883540::1520915184::1734547204::1::::<><>::
+slingshot_2.png::CompressedTexture2D::2189440203738115711::1520915214::1734547204::1::::<><>::
+smokes.png::CompressedTexture2D::3091173102074811111::1520957422::1734547204::1::::<><>::
+spot.png::CompressedTexture2D::495533855140768091::1520842682::1734547204::1::::<><>::
+spot_red.png::CompressedTexture2D::8710266086463861744::1520856550::1734547204::1::::<><>::
+::res://assets/fonts/::1729355686
+::res://assets/fonts/angrybirds/::1734530099
+FONT_BASIC.pvr.png::CompressedTexture2D::8704445682882293413::1729355686::1734530099::1::::<><>::
+FONT_BASIC.xml::TextFile::-1::1729355686::0::1::::<><>::
+FONT_BEST_SCORE_IPAD.pvr.png::CompressedTexture2D::2817737673109095191::1729355686::1734530099::1::::<><>::
+FONT_CHALLENGE_SCORE.pvr.png::CompressedTexture2D::8916920950026950345::1729355686::1734530099::1::::<><>::
+FONT_CHALLENGE_SCORE.xml::TextFile::-1::1729355686::0::1::::<><>::
+FONT_CHALLENGE_SCORE_IPAD.pvr.png::CompressedTexture2D::7909277230599997105::1729355686::1734530099::1::::<><>::
+FONT_CHALLENGE_SCORE_IPAD.xml::TextFile::-1::1729355686::0::1::::<><>::
+FONT_CHALLENGE_SCORE_IPHONE.pvr.png::CompressedTexture2D::4728079126963865631::1729355686::1734530099::1::::<><>::
+FONT_CURRENT_HIGHSCORE.pvr.png::CompressedTexture2D::7420441183463823979::1729355686::1734530099::1::::<><>::
+FONT_CURRENT_HIGHSCORE.xml::TextFile::-1::1729355686::0::1::::<><>::
+FONT_LS_SMALL.pvr.png::CompressedTexture2D::2809884797566135995::1729355686::1734530099::1::::<><>::
+FONT_LS_SMALL.xml::TextFile::-1::1729355686::0::1::::<><>::
+FONT_MENU.pvr.png::CompressedTexture2D::8715454683172328991::1729355686::1734530099::1::::<><>::
+FONT_MENU.xml::TextFile::-1::1729355686::0::1::::<><>::
+FONT_SCORE.pvr.png::CompressedTexture2D::5537928808596284034::1729355686::1734530099::1::::<><>::
+FONT_SCORE.xml::TextFile::-1::1729355686::0::1::::<><>::
+FONT_SHOP_AMOUNT.pvr.png::CompressedTexture2D::7241150566619971371::1729355686::1734530099::1::::<><>::
+FONT_SHOP_AMOUNT.xml::TextFile::-1::1729355686::0::1::::<><>::
+::res://assets/fonts/onomatoshark/::1734530099
+FONT_BASIC.xml::TextFile::-1::1729355686::0::1::::<><>::
+FONT_BASIC_IPAD.png::CompressedTexture2D::8445013176669564237::1729355686::1734530099::1::::<><>::
+FONT_BIG_NUMBERS.xml::TextFile::-1::1729355686::0::1::::<><>::
+FONT_BIG_NUMBERS_IPAD.png::CompressedTexture2D::4777717558893561593::1729355686::1734530099::1::::<><>::
+FONT_INGAME_SCORE.png::CompressedTexture2D::5309784887950750073::1729355686::1734530099::1::::<><>::
+FONT_INGAME_SCORE.xml::TextFile::-1::1729355686::0::1::::<><>::
+FONT_LS_SMALL.xml::TextFile::-1::1729355686::0::1::::<><>::
+FONT_LS_SMALL_IPAD.png::CompressedTexture2D::8336915645892728464::1729355686::1734530099::1::::<><>::
+FONT_MENU.xml::TextFile::-1::1729355686::0::1::::<><>::
+FONT_MENU_IPAD.png::CompressedTexture2D::8228988093134736452::1729355686::1734530099::1::::<><>::
+FONT_SCORE.png::CompressedTexture2D::2328942331335795043::1729355686::1734530099::1::::<><>::
+FONT_SCORE.xml::TextFile::-1::1729355686::0::1::::<><>::
+::res://assets/levels/::1734791357
+game_scene.tscn::PackedScene::6146782741290239833::1734791357::0::1::::<><>::uid://dswomiex3bnxl::::res://assets/exp/background_1.jpg<>res://assets/scripts/world_experimental.gd<>res://assets/scripts/drag_camera.gd<>uid://qdi72kpyojdy::::res://prefab/birds/bird_red.tscn<>uid://xaxpvc1s5vnp::::res://prefab/gameplay/slingshot.tscn<>uid://bqri1elcrwoak::::res://prefab/blocks/block_wood.tscn<>uid://cf5v3hsu8kjii::::res://assets/sprites/win_template.png<>uid://b5l3u7sv6g7av::::res://assets/sprites/loose_template.png<>uid://dkmdc1e875dan::::res://prefab/pigs/pig_regular.tscn
+main_menu.tscn::PackedScene::8892787735719605528::1734791357::0::1::::<><>::uid://bstqlqesalsty::::res://character_body_2d.tscn<>uid://dqekcx2ycq0sx::::res://assets/sprites/sheets/skies/INGAME_SKIES_1.png<>uid://bpigk0fulqev1::::res://assets/sprites/gnd_fixed.png<>uid://c7beosw4ont85::::res://assets/sprites/sheets/parallax/INGAME_PARALLAX_1.png<>uid://ct1s553w7rcb0::::res://assets/sprites/grass_front_cleared.png
+::res://assets/scripts/::1734789587
+bird_red.gd::GDScript::-1::1734764349::0::1::::<>RigidBody2D<>::
+change_level_button.gd::GDScript::-1::1734765295::0::1::::<>Button<>::
+drag_camera.gd::GDScript::-1::1734749686::0::1::::<>Camera2D<>::
+ground_generator.gd::GDScript::-1::1734573937::0::1::::<>Node2D<>::
+slingshot.gd::GDScript::-1::1734762503::0::1::::<>Node2D<>::
+world_experimental.gd::GDScript::-1::1734789587::0::1::::<>Node2D<>::
+::res://assets/sprites/::1734791440
+gnd_fixed.png::CompressedTexture2D::3456151841923530852::1734791440::1734791444::1::::<><>::
+grass_front_cleared.png::CompressedTexture2D::6161251317799355403::1734791244::1734791256::1::::<><>::
+loose_template.png::CompressedTexture2D::4516531649353816277::1734765476::1734765480::1::::<><>::
+win_template.png::CompressedTexture2D::5187042373698731932::1734765441::1734765479::1::::<><>::
+::res://assets/sprites/separated/::1734579906
+slingshot.png::CompressedTexture2D::1776768233424093913::1520915184::1734579906::1::::<><>::
+slingshot_2.png::CompressedTexture2D::6473021056059302761::1520915214::1734579906::1::::<><>::
+::res://assets/sprites/sheets/::1734546461
+::res://assets/sprites/sheets/background/::1734530100
+BACKGROUNDS_GE_1.png::CompressedTexture2D::7193860940651663903::1729355686::1734530100::1::::<><>::
+BACKGROUNDS_GE_1.xml::TextFile::-1::1729355686::0::1::::<><>::
+BACKGROUNDS_LS_1.png::CompressedTexture2D::3326474474352559026::1729355686::1734530100::1::::<><>::
+BACKGROUNDS_LS_1.xml::TextFile::-1::1729355686::0::1::::<><>::
+BACKGROUNDS_MAIN_1.png::CompressedTexture2D::3636416158615515260::1729355686::1734530100::1::::<><>::
+BACKGROUNDS_MAIN_1.xml::TextFile::-1::1729355686::0::1::::<><>::
+::res://assets/sprites/sheets/blocks/::1734546477
+INGAME_BLOCKS_1.png::CompressedTexture2D::4668737717450845045::1729355686::1734546477::1::::<><>::
+INGAME_BLOCKS_1.xml::TextFile::-1::1729355686::0::1::::<><>::
+INGAME_BLOCKS_2.png::CompressedTexture2D::914830758105424424::1729355686::1734546477::1::::<><>::
+INGAME_BLOCKS_2.xml::TextFile::-1::1729355686::0::1::::<><>::
+::res://assets/sprites/sheets/cursor/::1734534888
+CURSORS_SHEET_1.png::CompressedTexture2D::5034200891807931612::1729355686::1734534888::1::::<><>::
+::res://assets/sprites/sheets/entities/::1734530101
+INGAME_BIRDS_1.png::CompressedTexture2D::4208311445543048466::1729355686::1734530101::1::::<><>::
+INGAME_BIRDS_1.xml::TextFile::-1::1729355686::0::1::::<><>::
+INGAME_BIRDS_2.png::CompressedTexture2D::8996505720223852572::1729355686::1734530100::1::::<><>::
+INGAME_BIRDS_2.xml::TextFile::-1::1729355686::0::1::::<><>::
+::res://assets/sprites/sheets/grounds/::1734535368
+ground_1.png::CompressedTexture2D::7592211796101219057::1734535341::1734535368::1::::<><>::
+INGAME_GROUNDS_1.png::CompressedTexture2D::2527764229002876386::1729355686::1734534888::1::::<><>::
+INGAME_THEME_GROUND_1.png::CompressedTexture2D::4305214734671655635::1729355686::1734530100::1::::<><>::
+INGAME_THEME_GROUND_1.xml::TextFile::-1::1729355686::0::1::::<><>::
+INGAME_THEME_GROUND_2.png::CompressedTexture2D::1318645875393134924::1729355686::1734530100::1::::<><>::
+INGAME_THEME_GROUND_2.xml::TextFile::-1::1729355686::0::1::::<><>::
+INGAME_THEME_GROUND_3.png::CompressedTexture2D::422775506930126751::1729355686::1734530100::1::::<><>::
+INGAME_THEME_GROUND_3.xml::TextFile::-1::1729355686::0::1::::<><>::
+INGAME_THEME_GROUND_4.png::CompressedTexture2D::3336339538124276379::1729355686::1734530100::1::::<><>::
+INGAME_THEME_GROUND_4.xml::TextFile::-1::1729355686::0::1::::<><>::
+INGAME_THEME_GROUND_5.png::CompressedTexture2D::9144813773250829261::1729355686::1734530100::1::::<><>::
+INGAME_THEME_GROUND_5.xml::TextFile::-1::1729355686::0::1::::<><>::
+INGAME_THEME_GROUND_6.png::CompressedTexture2D::7588046630466029229::1729355686::1734530100::1::::<><>::
+INGAME_THEME_GROUND_6.xml::TextFile::-1::1729355686::0::1::::<><>::
+INGAME_THEME_GROUND_7.png::CompressedTexture2D::375219253880901561::1729355686::1734530100::1::::<><>::
+INGAME_THEME_GROUND_7.xml::TextFile::-1::1729355686::0::1::::<><>::
+INGAME_THEME_GROUND_8.png::CompressedTexture2D::1886785607783106789::1729355686::1734530100::1::::<><>::
+INGAME_THEME_GROUND_8.xml::TextFile::-1::1729355686::0::1::::<><>::
+INGAME_THEME_GROUND_9.png::CompressedTexture2D::952464125502974323::1729355686::1734530100::1::::<><>::
+INGAME_THEME_GROUND_9.xml::TextFile::-1::1729355686::0::1::::<><>::
+::res://assets/sprites/sheets/parallax/::1734530100
+INGAME_PARALLAX_1 (copy).xml::TextFile::-1::1729355686::0::1::::<><>::
+INGAME_PARALLAX_1.png::CompressedTexture2D::7021217591385902388::1729355686::1734530100::1::::<><>::
+INGAME_PARALLAX_1.xml::TextFile::-1::1729355686::0::1::::<><>::
+INGAME_PARALLAX_2.png::CompressedTexture2D::5420803315794352761::1729355686::1734530100::1::::<><>::
+INGAME_PARALLAX_2.xml::TextFile::-1::1729355686::0::1::::<><>::
+INGAME_PARALLAX_3.png::CompressedTexture2D::8722334408725016911::1729355686::1734530100::1::::<><>::
+INGAME_PARALLAX_3.xml::TextFile::-1::1729355686::0::1::::<><>::
+INGAME_PARALLAX_4.png::CompressedTexture2D::482389402495760452::1729355686::1734530100::1::::<><>::
+INGAME_PARALLAX_4.xml::TextFile::-1::1729355686::0::1::::<><>::
+INGAME_PARALLAX_5.png::CompressedTexture2D::4190866420975427172::1729355686::1734530100::1::::<><>::
+INGAME_PARALLAX_5.xml::TextFile::-1::1729355686::0::1::::<><>::
+INGAME_PARALLAX_6.png::CompressedTexture2D::8792656421504924225::1729355686::1734530100::1::::<><>::
+INGAME_PARALLAX_6.xml::TextFile::-1::1729355686::0::1::::<><>::
+INGAME_PARALLAX_7.png::CompressedTexture2D::2341983926806031537::1729355686::1734530100::1::::<><>::
+INGAME_PARALLAX_7.xml::TextFile::-1::1729355686::0::1::::<><>::
+INGAME_PARALLAX_8.png::CompressedTexture2D::5905548729334398299::1729355686::1734530100::1::::<><>::
+INGAME_PARALLAX_8.xml::TextFile::-1::1729355686::0::1::::<><>::
+INGAME_PARALLAX_9.png::CompressedTexture2D::8104599071277202977::1729355686::1734530100::1::::<><>::
+INGAME_PARALLAX_9.xml::TextFile::-1::1729355686::0::1::::<><>::
+INGAME_PARALLAX_CRANES.png::CompressedTexture2D::7367812788484897671::1729355686::1734530100::1::::<><>::
+INGAME_PARALLAX_CRANES.xml::TextFile::-1::1729355686::0::1::::<><>::
+::res://assets/sprites/sheets/skies/::1734530100
+INGAME_SKIES_1.png::CompressedTexture2D::8291153052660088639::1729355686::1734530100::1::::<><>::
+INGAME_SKIES_1.xml::TextFile::-1::1729355686::0::1::::<><>::
+INGAME_SKIES_2.png::CompressedTexture2D::121403019078336916::1729355686::1734530100::1::::<><>::
+INGAME_SKIES_2.xml::TextFile::-1::1729355686::0::1::::<><>::
+::res://assets/sprites/sheets/ui/::1734530101
+BUTTONS_SHEET_1.png::CompressedTexture2D::1610627952814153027::1729355686::1734530100::1::::<><>::
+BUTTONS_SHEET_1.xml::TextFile::-1::1729355686::0::1::::<><>::
+BUTTONS_SHEET_1@2x.png::CompressedTexture2D::4854444039734870904::1729355686::1734530100::1::::<><>::
+MENU_ELEMENTS_1.png::CompressedTexture2D::1783332844206587056::1729355686::1734530100::1::::<><>::
+MENU_ELEMENTS_1.xml::TextFile::-1::1729355686::0::1::::<><>::
+SPLASHES_SHEET_1.png::CompressedTexture2D::7683465325505199180::1729355686::1734530101::1::::<><>::
+SPLASHES_SHEET_1.xml::TextFile::-1::1729355686::0::1::::<><>::
+SPLASHES_SHEET_2.png::CompressedTexture2D::7643565951678918689::1729355686::1734530099::1::::<><>::
+::res://prefab/::1734754757
+damageble.gd::GDScript::-1::1734750536::0::1::::<>RigidBody2D<>::
+object_base.tscn::PackedScene::2066773142088530945::1734747475::0::1::::<><>::uid://b07sjlrqgtw1o::::res://assets/sprites/sheets/entities/INGAME_BIRDS_1.png<>res://prefab/damageble.gd
+::res://prefab/birds/::1734758161
+bird_black.tscn::PackedScene::4377382203575585075::1734758161::0::1::::<><>::uid://4pfpmfi044n2::::res://prefab/object_base.tscn
+bird_blue.tscn::PackedScene::3129491655782991113::1734758161::0::1::::<><>::uid://4pfpmfi044n2::::res://prefab/object_base.tscn
+bird_red.tscn::PackedScene::1129758947110448114::1734758161::0::1::::<><>::uid://4pfpmfi044n2::::res://prefab/object_base.tscn<>res://assets/scripts/bird_red.gd
+bird_red_huge.tscn::PackedScene::1758588707785665545::1734576788::0::1::::<><>::uid://4pfpmfi044n2::::res://prefab/object_base.tscn
+bird_yellow.tscn::PackedScene::5160890445982766074::1734758121::0::1::::<><>::uid://4pfpmfi044n2::::res://prefab/object_base.tscn
+::res://prefab/blocks/::1734764276
+block_wood.tscn::PackedScene::3545068997505012994::1734764276::0::1::::<><>::uid://4pfpmfi044n2::::res://prefab/object_base.tscn
+::res://prefab/gameplay/::1734756846
+slingshot.tscn::PackedScene::1615767788703487725::1734756846::0::1::::<><>::uid://bafp6h6ytr8cu::::res://assets/exp/slingshot.png<>uid://disqx4go3ga61::::res://prefab/ui/trajectory_spot.tscn<>uid://cyhtygaatdnor::::res://assets/sprites/separated/slingshot_2.png<>uid://evhb2vh4cnie::::res://prefab/gameplay/slingshot_belt.tscn<>res://assets/scripts/slingshot.gd
+slingshot_belt.tscn::PackedScene::324535563058897224::1734752571::0::1::::<><>::uid://bkadk6rjyvfc4::::res://assets/exp/elastic_tex.png
+::res://prefab/pigs/::1734791357
+pig_regular.tscn::PackedScene::7886110116404089257::1734791357::0::1::::<><>::uid://4pfpmfi044n2::::res://prefab/object_base.tscn
+::res://prefab/ui/::1734758813
+trajectory_spot.tscn::PackedScene::7758945678020445160::1734758813::0::1::::<><>::uid://hcbmt7f6ulhr::::res://assets/exp/spot.png

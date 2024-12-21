@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c2b1aaqmqm13a"
+path="res://.godot/imported/piglette oink a7.wav-4149bd870b454b6c0a28d3c33709eba3.sample"
+
+[deps]
+
+source_file="res://assets/audio/sfx/piglette oink a7.wav"
+dest_files=["res://.godot/imported/piglette oink a7.wav-4149bd870b454b6c0a28d3c33709eba3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

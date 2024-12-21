@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://qdi72kpyojdy"]
+
+[ext_resource type="PackedScene" uid="uid://4pfpmfi044n2" path="res://prefab/object_base.tscn" id="1_av1v7"]
+[ext_resource type="Script" path="res://assets/scripts/bird_red.gd" id="2_3j4fq"]
+
+[node name="bird_red" instance=ExtResource("1_av1v7")]
+z_index = 1
+input_pickable = true
+mass = 10.0
+can_sleep = false
+script = ExtResource("2_3j4fq")
+TRANSFER_SPEED = 5
+health = 50
+
+[node name="attach_point" type="Marker2D" parent="." index="2"]
+position = Vector2(-18, 1)

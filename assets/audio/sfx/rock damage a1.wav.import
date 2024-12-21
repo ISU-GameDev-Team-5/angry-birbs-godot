@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://caf6fhsbpt4dn"
+path="res://.godot/imported/rock damage a1.wav-6fd7ec76dec72a144218ccfbd3334f4a.sample"
+
+[deps]
+
+source_file="res://assets/audio/sfx/rock damage a1.wav"
+dest_files=["res://.godot/imported/rock damage a1.wav-6fd7ec76dec72a144218ccfbd3334f4a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

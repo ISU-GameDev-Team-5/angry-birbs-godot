@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://sqbip7txckwa"
+path="res://.godot/imported/piglette destroyed.wav-2666c19d3514f51b5bc6e5694b73c694.sample"
+
+[deps]
+
+source_file="res://assets/audio/sfx/piglette destroyed.wav"
+dest_files=["res://.godot/imported/piglette destroyed.wav-2666c19d3514f51b5bc6e5694b73c694.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

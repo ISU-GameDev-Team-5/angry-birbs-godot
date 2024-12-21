@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://iwgf8ru3vsyh"
+path="res://.godot/imported/ice light collision a2.wav-f1b8af87b81898b56f5fdbd1cbfb05f9.sample"
+
+[deps]
+
+source_file="res://assets/audio/sfx/ice light collision a2.wav"
+dest_files=["res://.godot/imported/ice light collision a2.wav-f1b8af87b81898b56f5fdbd1cbfb05f9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

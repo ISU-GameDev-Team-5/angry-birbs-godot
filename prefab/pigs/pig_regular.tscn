@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://dkmdc1e875dan"]
+
+[ext_resource type="PackedScene" uid="uid://4pfpmfi044n2" path="res://prefab/object_base.tscn" id="1_kpl2x"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_p6o58"]
+load_path = "res://.godot/imported/INGAME_BIRDS_1.png-2f56a6ce6d3369873abb68d0a53a5feb.ctex"
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_o3rv6"]
+radius = 35.0143
+
+[node name="pig_regular" instance=ExtResource("1_kpl2x")]
+health = 5
+
+[node name="template" parent="." index="0"]
+texture = SubResource("CompressedTexture2D_p6o58")
+region_rect = Rect2(927.371, 445.498, 80.8163, 77.9197)
+
+[node name="CollisionShape2D" parent="." index="1"]
+position = Vector2(-5, 2)
+shape = SubResource("CircleShape2D_o3rv6")

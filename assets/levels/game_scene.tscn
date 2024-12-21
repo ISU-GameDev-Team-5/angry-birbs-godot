@@ -1,0 +1,85 @@
+[gd_scene load_steps=12 format=3 uid="uid://cttsu4ot37yn6"]
+
+[ext_resource type="Texture2D" uid="uid://dswomiex3bnxl" path="res://assets/exp/background_1.jpg" id="1_80h62"]
+[ext_resource type="Script" path="res://assets/scripts/world_experimental.gd" id="1_n2gxd"]
+[ext_resource type="Script" path="res://assets/scripts/drag_camera.gd" id="2_e8jta"]
+[ext_resource type="PackedScene" uid="uid://qdi72kpyojdy" path="res://prefab/birds/bird_red.tscn" id="4_iq8gk"]
+[ext_resource type="PackedScene" uid="uid://xaxpvc1s5vnp" path="res://prefab/gameplay/slingshot.tscn" id="5_lbsjh"]
+[ext_resource type="PackedScene" uid="uid://bqri1elcrwoak" path="res://prefab/blocks/block_wood.tscn" id="5_lolpp"]
+[ext_resource type="Texture2D" uid="uid://cf5v3hsu8kjii" path="res://assets/sprites/win_template.png" id="7_0ivuf"]
+[ext_resource type="Texture2D" uid="uid://b5l3u7sv6g7av" path="res://assets/sprites/loose_template.png" id="8_emdgt"]
+[ext_resource type="PackedScene" uid="uid://dkmdc1e875dan" path="res://prefab/pigs/pig_regular.tscn" id="9_l7k5h"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_iwrch"]
+size = Vector2(2556, 199)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_l7lbg"]
+size = Vector2(105, 1321)
+
+[node name="GameScene" type="Node2D"]
+script = ExtResource("1_n2gxd")
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(1288, 717)
+texture = ExtResource("1_80h62")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(584, 1110)
+limit_left = 0
+limit_top = 0
+limit_right = 2600
+limit_bottom = 1400
+position_smoothing_enabled = true
+rotation_smoothing_enabled = true
+script = ExtResource("2_e8jta")
+
+[node name="Birds" type="Node2D" parent="."]
+
+[node name="bird_red" parent="Birds" groups=["Bird"] instance=ExtResource("4_iq8gk")]
+position = Vector2(415, 1166)
+
+[node name="bird_red2" parent="Birds" groups=["Bird"] instance=ExtResource("4_iq8gk")]
+position = Vector2(342, 1165)
+
+[node name="Enemies" type="Node2D" parent="."]
+
+[node name="pig_regular" parent="Enemies" groups=["Enemy"] instance=ExtResource("9_l7k5h")]
+position = Vector2(2041, 952)
+health = 10
+
+[node name="Blocks" type="Node2D" parent="."]
+
+[node name="block_wood" parent="Blocks" instance=ExtResource("5_lolpp")]
+position = Vector2(2042, 1113)
+
+[node name="block_wood3" parent="Blocks" instance=ExtResource("5_lolpp")]
+position = Vector2(2042, 1033)
+
+[node name="block_wood2" parent="Blocks" instance=ExtResource("5_lolpp")]
+position = Vector2(2042, 1195)
+
+[node name="slingshot" parent="." instance=ExtResource("5_lbsjh")]
+position = Vector2(565, 1132)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(-23, 21)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1318, 1317.5)
+shape = SubResource("RectangleShape2D_iwrch")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(2643.5, 646.5)
+shape = SubResource("RectangleShape2D_l7lbg")
+
+[node name="win_sprite" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(851, 896.5)
+scale = Vector2(0.821782, 0.638889)
+texture = ExtResource("7_0ivuf")
+
+[node name="loose_sprite" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(858, 932)
+scale = Vector2(0.754125, 0.559524)
+texture = ExtResource("8_emdgt")
